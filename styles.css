@@ -163,7 +163,6 @@ header h4 {
   display: inline-block;
   width: 285px;
   float: left;
-
 }
 
 .asidecontain{
@@ -229,8 +228,8 @@ text-align: center;
 
 .bodycontain{
   display: inline-block;
-  margin-left: 160px;
-  width: 525px;
+  margin-left: 360px;
+  width: 725px;
   float: left;
 }
 
@@ -374,25 +373,25 @@ text-align: center;
 
 .box1{
   display: inline-block;
-  width: 24%;
+  width: 25%;
   float: left;
 }
 
 .box2{
   display: inline-block;
-  width: 24%;
+  width: 25%;
   float: left;
 }
 
 .box3{
   display: inline-block;
-  width: 24%;
+  width: 25%;
   float: left;
 }
 
 .box4{
   display: inline-block;
-  width: 24%;
+  width: 25%;
   float: left;
   overflow: hidden;
 }

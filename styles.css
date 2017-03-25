@@ -161,7 +161,7 @@ header h4 {
 
 .asidecontain{
   display: inline-block;
-  width: 285px;
+  width: 185px;
   float: left;
 }
 
@@ -228,8 +228,8 @@ text-align: center;
 
 .bodycontain{
   display: inline-block;
-  margin-left: 360px;
-  width: 725px;
+  margin-left: 160px;
+  width: 525px;
   float: left;
 }
 

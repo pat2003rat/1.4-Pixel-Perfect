@@ -1,6 +1,7 @@
-/*
+navbarimage/*
  * General typography and color pallet
  */
+
 body{
   font-family: 'Open Sans', helvetica, sans-serif;
 }
@@ -19,7 +20,7 @@ h1, h2, h3{
 
 header{
   position: relative; /* for absolute children */
-  background: #FFF url('https://unsplash.it/1300/523?image=268') no-repeat;
+  background: #FFF url('https://unsplash.it/1275/524?image=792') no-repeat;
   background-size: cover;
   height: 523px;
 }
@@ -92,14 +93,21 @@ nav::after {
   list-style: none;
   padding: 0;
   margin: 16px 0 0 0;
+  color: black;
 }
 
+
+.header-links i{
+  color: black;
+  margin-left: 5px;
+}
 .header-links li {
   display: inline-block;
   vertical-align: middle;
   margin: 0 0 0 11px;
   text-transform: uppercase;
   font-size: 15px;
+  color: black;
 }
 
 .header-links li:first-child {
@@ -150,125 +158,277 @@ header h4 {
   letter-spacing: -1px;
 }
 
-/* my work */
 
-.container2{
-
-  width:1400px;
-  margin: 0;
-
-}
-.leftside{
-float: left;
-width: 20;
-margin-left: 100px;
-padding-left: 140px;
-width: 620px;
-
-}
-.leftside h1{
-font-size: 50px;
-text-transform: uppercase;
-color: #0B3551;
-}
-
-.small-image-information li{
-display: inline-block;
-}
-
-.small-image-information img{
+.asidecontain{
   display: inline-block;
-  border-radius: 90px;
+  width: 285px;
+  float: left;
+  margin-left: 300px;
+
 }
 
-.rightside img{
-  margin-top: 87px;
-  border-radius: 90px;
+.asidecontain{
+  margin-left: 65px;
+  margin-left: 300px;
+
 }
 
-.
+.twitterphoto{
+  text-align: center;
+}
 
-.small-image-information a{
+.twitterphoto img{
+  margin-top: 100px;
+  border-radius: 40px;
+}
+
+.twitteruser{
+  font-size: 18px;
+  color: #0070AE;
+text-align: center;
+
+
+}
+.twitter a{
   text-decoration: none;
-  font-weight: bold;
-  color: #2F7FBC;
-/* https://www.dmxzone.com/go/5550/css-how-to-make-links-not-underlined/ */
-}
-/*
-.interactive-social-media a{
-  text-decoration: none;
-  font-weight: bold;
+  font-size: 14px;
+  color: #A0B2BD;
 }
 
-.text-image {
- display: inline-block;
- list-style-type: none;
- width: 600px;
- padding: 5px;
- background: red;
+.twitter{
+  margin-bottom: 55px;
 }
 
-.Message {
-  padding: 15px;
-  background-color: #5E686F;
-  color: #5E686F;
-
-}
-*/
-
-}
-.text-image li{
-text-decoration: none;
-display: inline-block;
-width: 600px;
+.sponsoredimg{
+  text-align: center;
 }
 
+.sponsoredimage a{
+  font-size: 12px;
+  color: #A2B3BE;
+}
 
-.small-image-information p{
+.sponsoredimage > span{
+  display: block;
+  text-align: right;
+  margin-bottom: 55px;
+}
+
+.sidebarhead > h3{
+  color: #006FAE;
+  margin-bottom: 5px;
+}
+
+.sidebarcontent{
+  color: #B9C6CE;
+}
+
+.sidebarcontent a{
+  color: #B9C6CE;
+}
+
+/* body css*/
+
+.bodycontain{
+  display: inline-block;
+  margin-left: 160px;
+  width: 525px;
+  float: left;
+}
+
+.engage {
+  display: inline-block;
+  margin-top: 70px;
+
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+  color: #033550;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.userphotosmall > img{
+  width: 24px;
+  border-radius: 30px;
+}
+
+.userphotolarge > img{
+  width: 84px;
+  border-radius: 50px;
+  font-size: 12px;
+  margin-top: 68px;
+  margin-left: 100px;
+}
+
+.user{
+  display: inline-block;
+  font-size: 12px;
+  color: #006FAE;
+}
+
+#hi{
   text-decoration: underline;
-  color: #AFBDC8;
 }
 
-.rightside{
-float: left;
-width: 20%;
-margin-left: 100px;
+.authortext, li, ul{
+  display: inline-block;
+  text-decoration: none;
+  color: #AEBDC7;
+  padding-left: 0px;
 }
 
-.bottom-right-side{
-
-
-}
-.social-media{
-
-}
-.about-this-ad{
-  float: right;
+.bodytext1 a{
+  color: #AEBDC7;
 }
 
-.container3{
-    font-family:"Oswald", helvetica;
-    font-size: 58px;
-    clear: both;
-    padding: 39px 0 0;
-    text-align: center;
-    border-top: solid .0625em #e0e7ea;
+.bodytext2 a:hover{
+  color: #006FAE;
+  font-size: 18px;
 
 }
 
-/* https://developer.mozilla.org/en-US/docs/Web/CSS/clear */
-
-.container3.transparent{
-float: left;
-background-position: center;
+.woah{
+  padding-left: 10px;
+  font-size: 24px;
+  color: #006FAE;
+  text-transform: uppercase;
+  border-left: 1px solid lightgrey;
 }
 
-.section-class{
-      height: 476px;
-      width: 1300px;
+.socialcomments a, i{
+  text-decoration: none;
+  color: white;
+}
 
-  }
-.Images-on-bottom.transparent {
+.socialcomments span{
+  padding: 5px 10px 5px 10px;
+  background-color: #9EAEB9;
+}
+
+.socialcomments span:hover{
+  background-color: #006FAE;
+}
+
+.socialcomments > span:hover > i{
+   color: black;
+ }
+
+.socialcomments i{
+  padding: 8px;
+  background-color: #5D686E;
+}
+
+.bodycontent::after{
+  content: ".";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.bodycontent{
+  padding-bottom: 10px;
+}
+
+/* footer css */
+
+.mostpopular{
+  font-family: 'Oswald' sans-serif;
+  font-size: 56px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 10px;
+  border-top: 1px solid lightgrey;
+  color: #033550;
+}
+
+.mostpopularimages{
+  display: inline-block;
+  position: relative;
+}
+
+.mostpopularimages h1{
+  position: absolute;
+  bottom: -12px;
+  width: 250px;
+  font-size: 28px;
+  padding-left: 5px;
+  text-transform: uppercase;
+}
+
+.mostpopularimages > div::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 315px;
+  height: 330px;
+  background-color: rgba(28, 107, 174, 0.5);
+}
+
+.mostpopularimages > div:hover::after {
+   display: none;
+}
+
+.mostpopularimages > div:hover > h1 {
+   color: white;
+   }
+
+.box1{
+  display: inline-block;
+  width: 24%;
+  float: left;
+}
+
+.box2{
+  display: inline-block;
+  width: 24%;
+  float: left;
+}
+
+.box3{
+  display: inline-block;
+  width: 24%;
+  float: left;
+}
+
+.box4{
+  display: inline-block;
+  width: 24%;
+  float: left;
+  overflow: hidden;
+}
+
+.footer{
+  display: inline-block;
+  width: 100%;
+  padding-top: 30px;
+  background-color: #08324F;
+  color: #8CA1AF;
+}
+
+.footleft{
+  display: flex;
+  align-items: center;
   float:left;
+  margin-left: 158px;
+  margin-right: 205px;
+  margin-bottom: 45px;
+  font-size: 12px;
+}
 
+a.navbarimage{
+  padding-right: 10px;
+  padding-left: 8px;
+  border-right: 1px solid lightgrey;
+  font-size: 12px;
+  text-decoration: none;
+  color: #A2B3BE;
+}
+
+a.navbarimage1{
+  padding-left: 8px;
+  font-size: 12px;
+  text-decoration: none;
+  color: #A2B3BE;
 }
